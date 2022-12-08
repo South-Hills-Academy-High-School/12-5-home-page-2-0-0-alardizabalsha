@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
   } else if(url ==='/dinosaur.html') { 
     fs.createReadStream('dinosaur.html').pipe(res)
   } else if (url ==='/dinosaur2.html') {
-    fs.createReadStream('dinsaur2.html').pipe(res)
+    fs.createReadStream('dinosaur2.html').pipe(res)
   } else if (url ==='/dinosaur3.html') {
     fs.createReadStream('dinosaur3.html').pipe(res)
   } else if (url ==='/dinosaur4.html') {
